@@ -12,6 +12,7 @@ typedef enum {
     TOK_IDENTIFIER,
     TOK_NUMBER,
     TOK_SYMBOL,
+    TOK_PRINTF,
     TOK_UNKNOWN
 } TokenType;
 

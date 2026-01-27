@@ -10,6 +10,9 @@ int main(int argc, char **argv) {
         return 1;
     }
 
+    //check
+    printf("#include <stdio.h>\n");
+
     FILE *src = open_source(argv[2]);
     const KeywordEntry *keywords = load_language(argv[1]);
 

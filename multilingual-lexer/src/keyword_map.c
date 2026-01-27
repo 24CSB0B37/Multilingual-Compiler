@@ -11,6 +11,7 @@ TokenType map_keyword(const char *lexeme, const KeywordEntry *table) {
             if (strcmp(table[i].canonical, "return") == 0) return TOK_RETURN;
             if (strcmp(table[i].canonical, "int") == 0) return TOK_INT;
             if (strcmp(table[i].canonical, "float") == 0) return TOK_FLOAT;
+            if (strcmp(table[i].canonical, "printf") == 0) return TOK_PRINTF;
         }
     }
     return TOK_IDENTIFIER;

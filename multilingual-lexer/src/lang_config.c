@@ -1,4 +1,6 @@
 #include "lang_config.h"
+#include <string.h>
+#include <stddef.h>
 
 /* Japanese → C keywords */
 static KeywordEntry jp_keywords[] = {
@@ -9,6 +11,7 @@ static KeywordEntry jp_keywords[] = {
     {"戻る", "return"},
     {"整数", "int"},
     {"浮動", "float"},
+    {"表示", "printf"},
     {NULL, NULL}
 };
 
