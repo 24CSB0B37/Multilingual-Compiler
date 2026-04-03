@@ -4,5 +4,6 @@
 #include "token.h"
 
 void emit_token(Token t);
+const char *token_to_string(TokenType t);
 
 #endif
